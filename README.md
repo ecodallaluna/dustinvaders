@@ -8,7 +8,7 @@
 * Validate insight of the first UX research about house chores
 * Answer to the research question: "can gamification improve the activity of cleaning home?"
 * Explore business possibilities 
-* Improve my skills in prototyping, code with Python, data analysis R
+* Improve my skills in prototyping, code with Python, data analysis
 * Have fun :)
 
 ### 2. Origin of the project
