@@ -1,2 +1,25 @@
-# dustinvaders
-Prototype to explore gamification engagement in house chores
+# DUST*INVADERS
+*A prototype to explore gamification engagement in house chores*
+
+### Purposes
+
+* Validate insight of the first research about house chores
+* Answer to the research question: "can gamification improve the activity of cleaning home?"
+* Explore business possibilities 
+* Improve my skills in prototyping, code with Python, data analysis
+* Have fun :)
+
+### Origin of the project
+
+Dust Invaders was born as extension of a group research for the module of Affective Interaction (PSYCGI15) by Professor Nadia Berthouze during my master course in Human Computer Interaction at UCL. For more information about this study programme and UCL Interaction Centre activities, please visit [the UCLIC website](https://uclic.ucl.ac.uk). Please note that this project in **not** related in any way to UCL academic activities. 
+
+### Insight collected during the first research
+
+
+### Setting of Dust*Invaders 
+
+
+### Hardware configuration
+
+
+### Result of the research
