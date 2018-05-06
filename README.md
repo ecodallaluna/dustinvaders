@@ -1,5 +1,5 @@
 # DUST*INVADERS
-*A prototype to explore gamification engagement in house chores*
+*A prototype to explore gamification in house chores*
 
 ![Dust Invaders Cover](https://raw.githubusercontent.com/ecodallaluna/dustinvaders/master/dust-invaders-cover.jpg)
 
