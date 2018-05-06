@@ -24,4 +24,7 @@ Dust Invaders was born as extension of a group research for the module of Affect
 ### 5. Hardware configuration
 
 
-### 6. Result of the research
+### 6. Research setting
+
+
+### 7. Result of the research
