@@ -19,7 +19,9 @@
 # without the interaction with the game for statistical analysis. This app will silently storage the
 # amount of usage of the vacuum cleaner by saving the movement of the accelerometer. Each 30 seconds 
 # of usage will be saved as one "token". Other saved data are: time and kind of movement of the 
-# vacuum cleaner on axes x and y (left/right up/down) 
+# vacuum cleaner on axes x and y (left/right up/down). While in the 30 sec circle, the display will
+# show a smiley face. This app will be a control version for the game itself, to simulate the effect 
+# of an observer in the activety of vacuum the floor
 #
 # hardware requirement
 # =========================================================================
@@ -48,8 +50,8 @@ sensibility_sensor = 500
 mov_before = "-"
 # set no 30s movement tokens
 token = 0
-# set image
-check_led = Image("00000:00000:00500:00000:00000")
+# set image (not needed)
+# check_led = Image("00000:00000:00500:00000:00000")
 
 
 # list of functions
@@ -125,6 +127,8 @@ def is_moving(sens) :
 # write function cicle of 30 sec that save all new movements
 def capture_30s(sens) :
     # initialise variables
+    # set display on 
+    display.show(Image.HAPPY)
     time_sec = 0
     right_n = 0
     left_n = 0
@@ -139,7 +143,6 @@ def capture_30s(sens) :
         if mov_into_cicle != mov_before_cicle :
             mov_before_cicle = mov_into_cicle
             print("in  cicle "+ str(mov_into_cicle)) # just to check, remove from final
-            display.show(check_led) # turn off led to show reading movement
             if mov_into_cicle == "right" :
                 right_n = right_n + 1
             elif mov_into_cicle == "left" :
@@ -149,9 +152,9 @@ def capture_30s(sens) :
             elif mov_into_cicle == "down" :
                 down_n = down_n + 1
         sleep(500) # wait 0.5 sec before next reading
-        display.clear() #turn off the led - the effect is a blick of 0.5 sec if a movement is detected
         time_sec = time_sec + 0.5 # advance time count
     # after 30s out of cicle, return data as arrey of int
+    display.clear() #turn off the led after 30 sec
     return [right_n, left_n, up_n, down_n]
 
  # function to storage data in txt file    
