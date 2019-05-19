@@ -1,7 +1,7 @@
 # DUST*INVADERS
 *A prototype to explore gamification in house chores*
 
-![Dust Invaders Cover](https://raw.githubusercontent.com/ecodallaluna/dustinvaders/master/dust-invaders-cover.jpg)
+![Dust Invaders Logo](https://raw.githubusercontent.com/ecodallaluna/dustinvaders/master/Logo Dust Invaders.jpg)
 
 ### 1. Origin of the project
 
