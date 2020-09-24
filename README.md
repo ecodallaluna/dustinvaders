@@ -23,6 +23,23 @@ Dust Invaders was born as extension of a group research for the module of Affect
 
 ### 5. Hardware configuration
 
+-----
+
+![Dust Invaders Prototype](https://raw.githubusercontent.com/ecodallaluna/dustinvaders/master/dust_invaders_setting1.jpg)
+###### The prototype connected to a vacuum cleaner. The vacuum cleaner acts as input device
+
+-----
+
+![Dust Invaders Prototype](https://raw.githubusercontent.com/ecodallaluna/dustinvaders/master/dust_invaders_setting2.jpg)
+###### Prototype detail: the Microbit board
+
+-----
+
+![Dust Invaders Prototype](https://raw.githubusercontent.com/ecodallaluna/dustinvaders/master/dust_invaders_setting3.jpg)
+###### Prototype detail: power source and clock module
+
+-----
+
 
 ### 6. Research setting
 
